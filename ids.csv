@@ -1,41 +1,41 @@
 relation,source_id,target_id,status,evidence
-ct_scan_to_sid,CT-001,,,
-ct_scan_to_sid,CT-002,,,
-ct_scan_to_sid,CT-003,,,
-ct_scan_to_sid,CT-004,,,
-ct_scan_to_sid,CT-005,,,
-ct_scan_to_sid,CT-006,,,
-ct_scan_to_sid,CT-007,,,
-ct_scan_to_sid,CT-008,,,
-ct_scan_to_sid,CT-009,,,
-ct_scan_to_sid,CT-010,,,
-ct_scan_to_sid,CT-011,,,
-ct_scan_to_sid,CT-012,,,
-ct_scan_to_sid,CT-013,,,
-ct_scan_to_sid,CT-014,,,
-ct_scan_to_sid,CT-015,,,
-ct_scan_to_sid,CT-016,,,
-ct_scan_to_sid,CT-017,,,
-ct_scan_to_sid,CT-018,,,
-ct_scan_to_sid,CT-019,,,
-ct_scan_to_sid,CT-020,,,
-ct_scan_to_sid,CT-021,,,
-ct_scan_to_sid,CT-022,,,
-ct_scan_to_sid,CT-023,,,
-ct_scan_to_sid,CT-024,,,
-ct_scan_to_sid,CT-025,,,
-ct_scan_to_sid,CT-026,,,
-ct_scan_to_sid,CT-027,,,
-ct_scan_to_sid,CT-028,,,
-ct_scan_to_sid,CT-029,,,
-ct_scan_to_sid,CT-030,,,
-ct_scan_to_sid,CT-031,,,
-tensile_batch_to_synthesis_batch,B03,,,
-tensile_batch_to_synthesis_batch,B03,,,
-tensile_batch_to_synthesis_batch,B04,,,
-tensile_batch_to_synthesis_batch,B04,,,
-tensile_batch_to_synthesis_batch,B05,,,
-tensile_batch_to_synthesis_batch,B05,,,
-tensile_batch_to_synthesis_batch,B01,,,
-tensile_batch_to_synthesis_batch,B02,,,
-tensile_batch_to_synthesis_batch,B06,,,
+ct_scan_to_sid,CT-001,PC-B03-S05,matched,"raw/CT-scan-sheet.csv: CT-001 tube label B3-5, read as batch 3 specimen 5"
+ct_scan_to_sid,CT-002,PC-B03-S01,matched,"raw/CT-scan-sheet.csv: CT-002 tube label B3-1, read as batch 3 specimen 1"
+ct_scan_to_sid,CT-003,PC-B03-S03,matched,"raw/CT-scan-sheet.csv: CT-003 tube label B3-3, read as batch 3 specimen 3"
+ct_scan_to_sid,CT-004,PC-B03-S02,matched,"raw/CT-scan-sheet.csv: CT-004 tube label B3-2, read as batch 3 specimen 2"
+ct_scan_to_sid,CT-005,PC-B03-S04,matched,"raw/CT-scan-sheet.csv: CT-005 tube label B3-4, read as batch 3 specimen 4"
+ct_scan_to_sid,CT-006,PC-B06-S04,matched,"raw/CT-scan-sheet.csv: CT-006 tube label B6-4, read as batch 6 specimen 4"
+ct_scan_to_sid,CT-007,,unrecoverable,"raw/CT-scan-sheet.csv line for CT-007: tube label is '?' (label smudged), so no specimen can be named"
+ct_scan_to_sid,CT-008,PC-B01-S04,matched,"raw/CT-scan-sheet.csv: CT-008 tube label B1-4, read as batch 1 specimen 4"
+ct_scan_to_sid,CT-009,PC-B05-S01,matched,"raw/CT-scan-sheet.csv: CT-009 tube label B5-1, read as batch 5 specimen 1"
+ct_scan_to_sid,CT-010,PC-B01-S01,matched,"raw/CT-scan-sheet.csv: CT-010 tube label B1-1, read as batch 1 specimen 1"
+ct_scan_to_sid,CT-011,PC-B02-S05,matched,"raw/CT-scan-sheet.csv: CT-011 tube label B2-5, read as batch 2 specimen 5"
+ct_scan_to_sid,CT-012,PC-B04-S02,ambiguous,"raw/CT-scan-sheet.csv: tube B4-2 appears on two scans (CT-012 and CT-019), both noted 'rescan?'; best candidate PC-B04-S02 but cannot tell which scan is the keeper or whether one belongs to another tube"
+ct_scan_to_sid,CT-013,PC-B05-S05,matched,"raw/CT-scan-sheet.csv: CT-013 tube label B5-5, read as batch 5 specimen 5"
+ct_scan_to_sid,CT-014,PC-B01-S03,matched,"raw/CT-scan-sheet.csv: CT-014 tube label B1-3, read as batch 1 specimen 3"
+ct_scan_to_sid,CT-015,PC-B01-S05,matched,"raw/CT-scan-sheet.csv: CT-015 tube label B1-5, read as batch 1 specimen 5"
+ct_scan_to_sid,CT-016,PC-B02-S04,matched,"raw/CT-scan-sheet.csv: CT-016 tube label B2-4, read as batch 2 specimen 4"
+ct_scan_to_sid,CT-017,PC-B01-S02,matched,"raw/CT-scan-sheet.csv: CT-017 tube label B1-2, read as batch 1 specimen 2"
+ct_scan_to_sid,CT-018,PC-B05-S02,matched,"raw/CT-scan-sheet.csv: CT-018 tube label B5-2, read as batch 5 specimen 2"
+ct_scan_to_sid,CT-019,PC-B04-S02,ambiguous,"raw/CT-scan-sheet.csv: tube B4-2 appears on two scans (CT-012 and CT-019), both noted 'rescan?'; best candidate PC-B04-S02 but cannot tell which scan is the keeper or whether one belongs to another tube"
+ct_scan_to_sid,CT-020,PC-B04-S01,matched,"raw/CT-scan-sheet.csv: CT-020 tube label B4-1, read as batch 4 specimen 1"
+ct_scan_to_sid,CT-021,PC-B05-S03,matched,"raw/CT-scan-sheet.csv: CT-021 tube label B5-3, read as batch 5 specimen 3"
+ct_scan_to_sid,CT-022,PC-B02-S01,matched,"raw/CT-scan-sheet.csv: CT-022 tube label B2-1, read as batch 2 specimen 1"
+ct_scan_to_sid,CT-023,PC-B02-S02,matched,"raw/CT-scan-sheet.csv: CT-023 tube label B2-2, read as batch 2 specimen 2"
+ct_scan_to_sid,CT-024,,unrecoverable,"raw/CT-scan-sheet.csv line for CT-024: tube label is '?' (label smudged), so no specimen can be named"
+ct_scan_to_sid,CT-025,PC-B04-S05,matched,"raw/CT-scan-sheet.csv: CT-025 tube label B4-5, read as batch 4 specimen 5"
+ct_scan_to_sid,CT-026,PC-B04-S03,matched,"raw/CT-scan-sheet.csv: CT-026 tube label B4-3, read as batch 4 specimen 3"
+ct_scan_to_sid,CT-027,PC-B06-S01,matched,"raw/CT-scan-sheet.csv: CT-027 tube label B6-1, read as batch 6 specimen 1"
+ct_scan_to_sid,CT-028,PC-B06-S05,matched,"raw/CT-scan-sheet.csv: CT-028 tube label B6-5, read as batch 6 specimen 5"
+ct_scan_to_sid,CT-029,PC-B06-S03,matched,"raw/CT-scan-sheet.csv: CT-029 tube label B6-3, read as batch 6 specimen 3"
+ct_scan_to_sid,CT-030,PC-B04-S04,matched,"raw/CT-scan-sheet.csv: CT-030 tube label B4-4, read as batch 4 specimen 4"
+ct_scan_to_sid,CT-031,PC-B03-S06,matched,"raw/CT-scan-sheet.csv: CT-031 tube label B3-6, read as batch 3 specimen 6"
+tensile_batch_to_synthesis_batch,B03,B03-A,matched,raw/batch-notes.txt: tensile B03 = synthesis B03-A + B03-B pooled; this row records the B03-A half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B03,B03-B,matched,raw/batch-notes.txt: tensile B03 = synthesis B03-A + B03-B pooled; this row records the B03-B half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B04,B04-A,matched,raw/batch-notes.txt: tensile B04 = synthesis B04-A + B04-B pooled; this row records the B04-A half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B04,B04-B,matched,raw/batch-notes.txt: tensile B04 = synthesis B04-A + B04-B pooled; this row records the B04-B half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B05,B05-A,matched,raw/batch-notes.txt: tensile B05 = synthesis B05-A + B05-B pooled; this row records the B05-A half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B05,B05-B,matched,raw/batch-notes.txt: tensile B05 = synthesis B05-A + B05-B pooled; this row records the B05-B half of the pool (specimens not tracked to A or B)
+tensile_batch_to_synthesis_batch,B01,,unrecoverable,"raw/batch-notes.txt: B01 was pressed before the synthesis log existed or never written up, so there is no synthesis record"
+tensile_batch_to_synthesis_batch,B02,,unrecoverable,"raw/batch-notes.txt: B02 was pressed before the synthesis log existed or never written up, so there is no synthesis record"
+tensile_batch_to_synthesis_batch,B06,,unrecoverable,"raw/batch-notes.txt: B06 was pressed before the synthesis log existed or never written up, so there is no synthesis record"

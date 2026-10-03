@@ -1,12 +1,49 @@
-# Sus-Mat NRT Training Dossier — Data Schema
-# Complete this file in Lesson 4 (Define & Validate Your Data)
-# Format is flexible — YAML, CSV, or structured Markdown are all acceptable.
-# Each field needs: meaning, type, unit, missing-value convention, identifier role
-
 schema_version: "1.0"
-project: "Sus-Mat NRT Training Dossier"
-author: "[Your Name]"
-created: "[YYYY-MM-DD]"
-github_url: "https://github.com/[your-username]/[your-repo]"
+project: "Jordan's PP/CaSO4 practice project"
+author: "Walkthrough Tester"
+created: "2026-10-03"
+github_url: "https://github.com/wfreinhart/rdm-walkthrough-2026-10-03"
 
-# Add project_structure and files sections in Lesson 4
+file: raw/PC-tensile-raw.csv
+columns:
+  SID:
+    description: "Specimen identifier, batch number as numbered at tensile testing plus specimen number; links to CT tube labels through ids.csv."
+    type: string
+    identifier: true
+  T1:
+    description: "Ultimate tensile strength of the dogbone specimen (ASTM D638). Column name is ambiguous; meaning inferred from the README and the value range."
+    type: float
+    unit: "MPa"
+    missing_value: "blank = not measured"
+    expected_range: [1.0, 2.5]
+    known_issues: "PC-B03-S01 holds 1620, a kPa value; corrected to 1.62 in processed/PC-tensile-raw-cleaned.csv"
+  P:
+    description: "Pressing pressure of the specimen (matches pressure_MPa in the synthesis log)."
+    type: float
+    unit: "MPa"
+    missing_value: "blank = not recorded"
+  YM:
+    description: "Young's modulus. Unit not stated anywhere in the files; to confirm with Jordan."
+    type: float
+    unit: "unknown (to confirm, likely GPa)"
+    missing_value: "blank = not measured"
+  El:
+    description: "Elongation, presumably at break. Unit not stated; to confirm with Jordan."
+    type: float
+    unit: "unknown (to confirm)"
+    missing_value: "blank = not measured"
+  HV:
+    description: "Vickers hardness."
+    type: float
+    unit: "HV"
+    missing_value: "blank = not measured (PC-B01-S01 and PC-B03-S01)"
+  d_mean:
+    description: "Mean of a dimension or diameter measurement; meaning not stated, to confirm with Jordan."
+    type: float
+    unit: "unknown (to confirm)"
+    missing_value: "blank = not measured"
+  comp_PP:
+    description: "Polypropylene content of the composite, close to PP_vol_pct in the synthesis log."
+    type: float
+    unit: "vol%"
+    missing_value: "blank = not measured"
