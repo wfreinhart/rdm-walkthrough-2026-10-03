@@ -1,0 +1,28 @@
+# SUS-MAT NRT TRAINING DATA - SKELETON VERSION
+
+cold sintering notes - jordan's project
+
+energy draw: ~2.8 kWh per sintering run (estimated from press spec sheet)
+the carver press runs about 3 hours total if you count warmup
+instrument: Carver press, model 3851
+
+solvent: DMF, approximately 15 mL per batch for cleaning mold surfaces
+also used 10 wt% DI water as transient liquid during sintering (this is separate from the DMF)
+
+ambient conditions: 22°C, 45% RH (thermostat set, not measured)
+sintering was run late afternoon most days
+
+PP particles: cryomilled, 250-500 um, sieved with 35/60 mesh
+CaSO4: sigma-aldrich 325 mesh, used as-received
+
+got 5-6 dogbones per batch usually, some broke on demolding
+the ones from feb 5 batch were pressed late and lab was closing - might have rushed cooldown
+
+waste: DMF solvent residue goes to hazardous waste (EHS pickup tuesdays)
+CAS number for DMF is 68-12-2
+also some CaSO4 dust - swept up, regular trash
+
+po-hao ran the CT scans over ~2 weeks in march, I don't remember exact dates
+he said the voxel resolution was 7.5 um
+
+talked to prof vogt about publishing - he wants us to put data on OSF before submitting

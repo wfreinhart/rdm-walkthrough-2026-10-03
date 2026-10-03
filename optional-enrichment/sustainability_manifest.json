@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "project": "Sus-Mat NRT Training Dossier",
+  "dataset_ref": "[Your Skeleton Data batch ID]",
+  "created": "[YYYY-MM-DD]",
+  "author": "[Your Name]",
+
+  "energy": {
+    "value": null,
+    "unit": "kWh",
+    "per": "batch",
+    "measurement_method": "",
+    "notes": ""
+  },
+
+  "material_waste": {
+    "value": null,
+    "unit": "mL",
+    "per": "batch",
+    "waste_type": "",
+    "disposal": "",
+    "regulated": null,
+    "cas_number": ""
+  },
+
+  "materials": [
+    {
+      "name": "",
+      "supplier": "",
+      "lot_number": "",
+      "grade": "",
+      "renewable": null,
+      "recyclable": null
+    }
+  ],
+
+  "notes": "Complete this manifest in Module 6 (Sustainability & Licensing)"
+}

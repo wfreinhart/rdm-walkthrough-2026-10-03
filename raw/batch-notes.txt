@@ -1,0 +1,11 @@
+# SUS-MAT NRT TRAINING DATA - SKELETON VERSION
+
+tensile batch notes - jordan's project
+
+the batch numbers B01-B06 on the tensile sheet were just assigned when I tested them, in the order they came off the bench
+they are NOT the same thing as the batch ids in the synthesis log
+
+B03, B04 and B05 each = synthesis B0n-A plus B0n-B pooled together (so B03 = B03-A + B03-B, same for the others)
+did not keep track of which dogbone came from A and which from B, they got mixed
+
+B01, B02 and B06 were pressed before the synthesis log existed (or I never wrote it up), so there is no synthesis record for those

@@ -1,0 +1,7 @@
+batch_id,date,operator,PP_grade,CaSO4_grade,PP_vol_pct,water_wt_pct,temp_C,pressure_MPa,hold_min,mold_type,ambient_note
+B03-A,2024-01-15,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),
+B03-B,2024-01-22,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),
+B04-A,2024-02-05,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),pressed late — lab closing
+B04-B,2024-02-12,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),
+B05-A,2024-02-22,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),
+B05-B,2024-03-04,J. Reyes,PP4792E1 (ExxonMobil),99.9% 325 mesh (Sigma-Aldrich),44.6,10,160,200,60,316SS Type V (ASTM D638),new CaSO4 lot
