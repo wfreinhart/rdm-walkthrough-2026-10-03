@@ -41,6 +41,13 @@ Reference: Lai et al., "Upcycling plastic waste into fully recyclable composites
 
 Crosswalk built in Lesson 4.
 
+## Storage & Continuity Plan
+
+**Canonical data store:** Institutional cloud project folder administered by the PI (planned for the real version of this data)
+**Owner:** Jordan, with the PI as second contact
+**Backups:** Two copies: a lab server in the same department (different medium) and an institutional cloud folder under a different login (off-site)
+**Restore test:** Scheduled for 2026-11-15; restore one raw CSV from the cloud copy and confirm it opens and matches the original
+
 ---
 
 *This dossier was created as part of the [Sus-Mat NRT](https://susmat-nrt.web.app/) training program.*
