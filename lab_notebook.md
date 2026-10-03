@@ -9,3 +9,20 @@
 > — Briney (2023), Research Data Management Workbook
 
 ---
+
+## 2026-10-03 14:00 | Data Processing: Tensile units check (PLANNED)
+
+| | |
+|---|---|
+| **Input** | raw/PC-tensile-raw.csv (specimens PC-B01-S01 to PC-B06-S0n) |
+| **Output** | processed/PC-tensile-checked.csv (planned) |
+| **Operator** | Walkthrough Tester (practice learner) |
+| **Method** | Compare the strength column T1 against ASTM D638 expected range; flag values 1000x too large (kPa vs MPa) |
+| **Software version** | Python 3.12, pandas 2.2 (planned) |
+| **Timestamp + operator** | 2026-10-03 14:00, Walkthrough Tester |
+| **Units + acquisition conditions** | MPa; Instron 5943, 100 N load cell, 0.5 mm/min crosshead (from README) |
+| **Raw-data location** | raw/ in this repository (synthetic training data) |
+| **Parent/child** | raw/PC-tensile-raw.csv -> processed/PC-tensile-checked.csv |
+| **Access/sensitivity** | Internal: synthetic data, no restriction |
+
+**Notes:** Planned entry; will be updated with actual values after the run.
