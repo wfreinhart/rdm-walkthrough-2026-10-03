@@ -1,7 +1,7 @@
-# Lab Notebook — [Your Project Name]
+# Lab Notebook: Jordan's PP/CaSO4 Cold-Sintering Practice Project
 
-**Author:** [Your Name] | **Institution ID:** [Your ID]
-**Repository:** [link to your repo]
+**Author:** Walkthrough Tester | **GitHub:** wfreinhart
+**Repository:** https://github.com/wfreinhart/rdm-walkthrough-2026-10-03
 **Canonical data store:** (add once established)
 
 > **Standard:** Each entry should contain enough detail for someone

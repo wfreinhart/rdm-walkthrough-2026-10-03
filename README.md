@@ -33,6 +33,14 @@ Skeleton training data based on cold-sintered PP/CaSO4 polymer-ceramic composite
 
 Reference: Lai et al., "Upcycling plastic waste into fully recyclable composites through cold sintering," *Materials Horizons*, 2024, 11, 2718–2728. DOI: 10.1039/D3MH01976D
 
+## Identifiers
+
+- `raw/PC-tensile-raw.csv` uses `SID` (for example PC-B01-S01)
+- `raw/PC-synthesis-log.csv` uses `batch_id` (for example B03-A)
+- `raw/CT-metadata.csv` uses `scan_id` (for example CT-001)
+
+Crosswalk built in Lesson 4.
+
 ---
 
 *This dossier was created as part of the [Sus-Mat NRT](https://susmat-nrt.web.app/) training program.*
